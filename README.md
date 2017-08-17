@@ -21,8 +21,8 @@ Jason Smith
 * Output without `--rearrange`:
 
 ```
-Wang xiao ming
-Li da hua
+Wang Xiao Ming
+Li Da Hua
 Jason Smith
 ```
 

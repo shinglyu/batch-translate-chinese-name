@@ -22,7 +22,7 @@ def toPinyin(s, rearrange=False):
         chars.append(pinyin.get(firstname, format="strip", delimiter="-").strip("-"))
         chars.append(pinyin.get(lastname, format="strip", delimiter="-"))
     else:
-        chars.append(pinyin.get(s, format="strip", delimiter=" "))
+        chars+= pinyin.get(s, format="strip", delimiter=" ").split()
     return " ".join(map(lambda x: x.capitalize(), chars))
 
 
