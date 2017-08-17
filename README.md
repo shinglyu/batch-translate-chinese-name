@@ -10,9 +10,27 @@ python3 convert input.txt > output.txt
 ## Input file format
 Input file must be a list of names, each name is a separate line. You can mix Chinese names with English names, but English names will not be modified.
 
+* Input:
+
 ```
 王小明
 李大華
+Jason Smith
+```
+
+* Output without `--rearrange`:
+
+```
+Wang xiao ming
+Li da hua
+Jason Smith
+```
+
+* Output with `--rearragne`:
+
+```
+Xiao-ming Wang
+Da-hua Li
 Jason Smith
 ```
 
